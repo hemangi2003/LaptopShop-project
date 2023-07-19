@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --bg-color: white;
+    --text-color: #000000;
+    --main-color: #d61b3c;
+}
+
+* {
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.header .p-0 .navbar i {
+    color: var(--text-color);
+}
+
+.header #logo {
+    padding-left: 50px;
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.header #navbarCollapse {
+    padding-right: 20px;
+}
+
+.header #search_box {
+    width: 350px;
+}
+
+.header #search_i {
+    padding: 0px 15px;
+}
+
+.header .btn {
+    padding: 2px;
+}
+
+.header #nav_bar {
+    background-color: var(--main-color);
+}
+
+.header .n1:hover {
+    color: var(--main-color);
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.heading::before{
+    content: '';
+    position: absolute;
+    top:50%; left:0;
+    transform: translateY(-50%);
+    width: 100%;
+    height:.01rem;
+    background: rgba(0,0,0,.1);
+    z-index: -1;
+}
+
+.heading span{
+    padding:.5rem 2rem;
+    color:var(--main-color);
+    background: #fff;
+    border:1px solid rgba(19, 19, 19, 0.1);
+}
+
+
+.btn-block{
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+.btn-block:hover{
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+.head_2{
+    padding:16px 80px  ;
+}
+
+#product{
+    padding:16px 80px  ;
+}
+
+#product .desc .head_1{
+    padding: 60px 10px;
+}
+
+#product .desc .head_1 h5,
+#product .desc .head_1 h3,
+#product .desc .head_1 h4{
+    padding: 30px 10px;
+}
+
+#product .desc .bttn{
+    padding-top: 190px;
+}
+
+#product .desc .bttn .bttn_x{
+    padding-top: 20px;
+}
+
+footer {
+    margin: 0px;
+}
+
+.fticon {
+    font-size: 35px;
+    color: var(--text-color);
+}
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
